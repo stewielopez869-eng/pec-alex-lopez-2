@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<html>
+    <meta charset="UTF-8">
+
+<head>
+    <title>redes de bienestar:tejiendo por la salud mental y el exito escolar</title>
+    <!--ENLACE A LA PAGINA DE CSS-->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<header>
+<!--Reproductor oculto (sin el atributo controls)-->
+<audio id="mixkit-valley-sunset-127" loop>
+    <source src="mixkit-valley-sunset-127 (2).mp3" type="audio/mpeg">
+
+</audio>
+
+    <!-- Botón de control único -->
+    <button id="btnControl">▶️ Reproducir musica</button>
+    <script>
+        const audio = document.getElementById("mixkit-valley-sunset-127");
+        const boton = document.getElementById("btnControl");
+    
+        boton.addEventListener("click", function () {
+            if (audio.paused) {
+                audio.play();
+                boton.textContent = "⏸️ Pausar música";
+            } else {
+                audio.pause();
+                boton.textContent = "▶️ Reproducir música";
+            }
+        });
+    </script>
+
+<h1>importancia de la salud mental</h1>
+
+</header>
+<body>
+   
+
+<main><section>
+<h2>¿porque es importante la salud mental?</h2>
+<p>La salud mental es muy importante durante la adolescencia, ya que es una etapa de muchos cambios físicos, emocionales y sociales. Los adolescentes pueden enfrentar problemas como estrés, ansiedad, inseguridad o presión escolar y social. Por eso, es fundamental que tengan un ambiente de apoyo donde puedan expresar lo que sienten sin miedo a ser juzgados. Cuidar la salud mental ayuda a mejorar la autoestima, las relaciones con los demás y el rendimiento escolar. Escuchar, comprender y pedir ayuda cuando sea necesario puede hacer una gran diferencia en su bienestar.</p>
+
+<img src="emociones.jpg" alt="emociones" width="450">
+
+<H2>¿como ayudar a alguien que esta atravesando un problema emocional?</H2>
+<p>Si conocemos a alguien que está pasando por una situación difícil, podemos ayudarlo escuchándolo sin juzgar, mostrando empatía y haciéndole saber que no está solo. También podemos animarlo a buscar apoyo de un familiar, amigo o profesional de la salud. A veces, simplemente estar presentes y escuchar puede marcar una gran diferencia.</p>
+
+</section></main>   
+ 
+<!--SECCION A LA DERECHA DE LA PAGINA-->
+<aside><h3>¿a quien acudir ante un problema relacionado con la salud mental?</h3>
+<p>
+📞 Línea de la Vida: 800 911 2000
+Atención gratuita y 24/7 en México.
+No estás solo.</p></aside>
+
+
+
+
+<!--enlaces a las paginas secundarias-->
+<footer>
+<p>aqui mas temas sobre la salud mental :D</p>
+<p><a href="cpaae.html">¿como actuar ante el acoso escolar?</a></p>
+<p><a href="rdspbra.html">riesgo de suicidio por el bajo rendimiento academico</a></p>
+<p><a href="riesgo de no estar sano.html">riesgo de no estar sano mentalmente</a></p>
+<p><a href="la importancia de reconocer tus emociones.html">la importancia de reconocer tus emociones</a></p>
+<p><a href="ayuda.html">donde recibir ayuda en caso de algun problema mental</a></p>
+
+</footer>
+</body>
+</html>

@@ -1,0 +1,285 @@
+<html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Cuidar nuestra salud mental</title>
+</head>
+
+
+<body>
+
+    <header>
+<!--Reproductor oculto (sin el atributo controls)-->
+<audio id="mixkit-valley-sunset-127" loop>
+    <source src="mixkit-valley-sunset-127 (2).mp3" type="audio/mpeg">
+
+</audio>
+
+    <!-- Botón de control único -->
+    <button id="btnControl">▶️ Reproducir musica</button>
+    <script>
+        const audio = document.getElementById("mixkit-valley-sunset-127");
+        const boton = document.getElementById("btnControl");
+    
+        boton.addEventListener("click", function () {
+            if (audio.paused) {
+                audio.play();
+                boton.textContent = "⏸️ Pausar música";
+            } else {
+                audio.pause();
+                boton.textContent = "▶️ Reproducir música";
+            }
+        });
+    </script>
+
+
+        <h1>🧠 Cuidar nuestra salud mental</h1>
+        <p>
+            Información y recursos para comprender la salud mental,
+            reconocer señales de alerta y saber dónde pedir ayuda.
+        </p>
+    </header>
+
+    <hr>
+
+    <nav>
+        <a href="#inicio">Inicio</a> |
+        <a href="#salud">Salud mental</a> |
+        <a href="#alertas">Señales de alerta</a> |
+        <a href="#ayuda">Dónde pedir ayuda</a> |
+        <a href="#emergencia">Emergencias</a>
+    </nav>
+
+    <hr>
+
+    <main>
+
+        <!-- INICIO -->
+        <section id="inicio">
+            <h2>💙 Tu salud mental también importa</h2>
+
+            <p>
+                La salud mental forma parte de nuestro bienestar y afecta
+                la manera en que pensamos, sentimos y nos relacionamos
+                con otras personas.
+            </p>
+
+            <p>
+                Todas las personas podemos atravesar momentos difíciles.
+                Sentir tristeza, ansiedad o estrés ocasionalmente puede
+                formar parte de la vida, pero cuando estas emociones se
+                vuelven difíciles de manejar, es importante buscar apoyo.
+            </p>
+
+            <p>
+                <strong>
+                    Pedir ayuda no es una señal de debilidad.
+                </strong>
+            </p>
+        </section>
+
+        <hr>
+
+        <!-- QUÉ ES LA SALUD MENTAL -->
+        <section id="salud">
+            <h2>💭 ¿Qué es la salud mental?</h2>
+
+            <p>
+                La salud mental es un estado de bienestar que permite a
+                las personas afrontar las dificultades de la vida,
+                desarrollar sus capacidades, relacionarse con los demás
+                y realizar sus actividades cotidianas.
+            </p>
+
+            <h3>Algunos aspectos importantes:</h3>
+
+            <ul>
+                <li>Bienestar emocional.</li>
+                <li>Relaciones saludables.</li>
+                <li>Capacidad para afrontar dificultades.</li>
+                <li>Desarrollo personal.</li>
+                <li>Equilibrio entre las responsabilidades y el descanso.</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <!-- SEÑALES DE ALERTA -->
+        <section id="alertas">
+            <h2>🚨 Señales de alerta</h2>
+
+            <p>
+                Algunas situaciones pueden indicar que una persona
+                necesita apoyo profesional:
+            </p>
+
+            <ul>
+                <li>Tristeza o preocupación durante mucho tiempo.</li>
+                <li>Cambios importantes en el sueño o el apetito.</li>
+                <li>Falta de interés por actividades que antes disfrutaba.</li>
+                <li>Dificultad para concentrarse.</li>
+                <li>Sentirse constantemente desesperado o abrumado.</li>
+                <li>Cambios repentinos de comportamiento.</li>
+                <li>Uso de alcohol o drogas para afrontar problemas.</li>
+                <li>Pensamientos relacionados con hacerse daño.</li>
+                <li>Pensamientos de no querer vivir.</li>
+            </ul>
+
+            <p>
+                <strong>Importante:</strong>
+                presentar alguna de estas señales no significa
+                necesariamente que exista un trastorno mental.
+                Sin embargo, puede ser una razón para hablar con
+                un profesional.
+            </p>
+        </section>
+
+        <hr>
+
+        <!-- DÓNDE PEDIR AYUDA -->
+        <section id="ayuda">
+            <h2>🩺 ¿Dónde puedo recibir ayuda?</h2>
+
+            <article>
+                <h3>👨‍⚕️ Psicólogo</h3>
+                <p>
+                    Puede ayudar a comprender y manejar emociones,
+                    pensamientos y comportamientos, además de
+                    proporcionar herramientas para afrontar
+                    situaciones difíciles.
+                </p>
+            </article>
+
+            <article>
+                <h3>🩺 Psiquiatra</h3>
+                <p>
+                    Es un médico especializado en salud mental.
+                    Puede realizar una evaluación médica y determinar
+                    el tratamiento adecuado cuando sea necesario.
+                </p>
+            </article>
+
+            <article>
+                <h3>🏥 Centro de salud</h3>
+                <p>
+                    Los centros de salud pueden proporcionar
+                    orientación y atención psicológica o canalizar
+                    a servicios especializados.
+                </p>
+            </article>
+
+            <article>
+                <h3>🤝 Persona de confianza</h3>
+                <p>
+                    Hablar con un familiar, amigo, profesor u otra
+                    persona de confianza puede ser un primer paso
+                    para buscar apoyo.
+                </p>
+            </article>
+        </section>
+
+        <hr>
+
+        <!-- AYUDA EN MÉXICO -->
+        <section id="emergencia">
+            <h2>📞 Ayuda en México</h2>
+
+            <h3>Línea de la Vida</h3>
+
+            <p>
+                La Línea de la Vida ofrece orientación y apoyo
+                relacionado con salud mental y consumo de sustancias.
+            </p>
+
+            <p>
+                <strong>Teléfono: 800 911 2000</strong>
+            </p>
+
+            <p>
+                <a href="tel:8009112000">
+                    📞 Llamar a Línea de la Vida
+                </a>
+            </p>
+
+            <h3>🚑 En caso de emergencia</h3>
+
+            <p>
+                Si existe peligro inmediato, una persona está a punto
+                de hacerse daño o no puede mantenerse a salvo,
+                llama al servicio de emergencias.
+            </p>
+
+            <p>
+                <strong>Emergencias: 911</strong>
+            </p>
+
+            <p>
+                <a href="tel:911">
+                    📞 Llamar al 911
+                </a>
+            </p>
+        </section>
+
+        <hr>
+
+        <!-- CÓMO AYUDAR -->
+        <section>
+            <h2>❤️ ¿Cómo puedo ayudar a alguien?</h2>
+            <ol>
+                <li>Escucha a la persona sin juzgarla.</li>
+                <li>Toma en serio lo que está sintiendo.</li>
+                <li>Pregúntale cómo puedes ayudar.</li>
+                <li>Anímala a buscar ayuda profesional.</li>
+                <li>Acompáñala durante una situación difícil.</li>
+                <li>Si existe peligro inmediato, busca ayuda de emergencia.</li>
+            </ol>
+        </section>
+        <hr>
+        <!-- CUIDADO DE LA SALUD MENTAL -->
+        <section>
+            <h2>🌱 ¿Cómo cuidar nuestra salud mental?</h2>
+            <ul>
+                <li>Dormir y descansar adecuadamente.</li>
+                <li>Realizar actividad física.</li>
+                <li>Mantener contacto con personas de confianza.</li>
+                <li>Dedicar tiempo a actividades que disfrutamos.</li>
+                <li>Expresar nuestras emociones.</li>
+                <li>Evitar utilizar alcohol o drogas para afrontar problemas.</li>
+                <li>Pedir ayuda cuando una situación sea difícil de manejar.</li>
+            </ul>
+        </section>
+
+    </main>
+    <hr>
+    <footer>
+        <h3>💙 Recuerda</h3>
+        <p>
+            Pedir ayuda no es una señal de debilidad.
+            Cuidar nuestra salud mental es parte de cuidar
+            nuestra salud en general.
+        </p>
+
+        <p>
+            <strong>No tienes que enfrentar una situación difícil en soledad.</strong>
+        </p>
+        <p>aqui mas temas sobre la salud mental :D</p>
+        <p><a href="index.html">pagina principal</a></p>
+        <p><a href="cpaae.html">¿como actuar ante el acoso escolar?</a></p>
+        <p><a href="rdspbra.html">riesgo de suicidio por el bajo rendimiento academico</a></p>
+        <p><a href="riesgo de no estar sano.html">riesgo de no estar sano mentalmente</a></p>
+        <p><a href="la importancia de reconocer tus emociones.html">la importancia de reconocer tus emociones</a></p>
+ 
+        
+
+
+
+    </footer>
+
+</body>
+</html>

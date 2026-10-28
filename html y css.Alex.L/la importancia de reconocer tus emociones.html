@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="estilos.css">
+<head>
+    
+<!--Reproductor oculto (sin el atributo controls)-->
+<audio id="mixkit-valley-sunset-127" loop>
+    <source src="mixkit-valley-sunset-127 (2).mp3" type="audio/mpeg">
+
+</audio>
+
+    <!-- Botón de control único -->
+    <button id="btnControl">▶️ Reproducir musica</button>
+    <script>
+        const audio = document.getElementById("mixkit-valley-sunset-127");
+        const boton = document.getElementById("btnControl");
+    
+        boton.addEventListener("click", function () {
+            if (audio.paused) {
+                audio.play();
+                boton.textContent = "⏸️ Pausar música";
+            } else {
+                audio.pause();
+                boton.textContent = "▶️ Reproducir música";
+            }
+        });
+    </script>
+
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Importancia de reconocer tus emociones</title>
+</head>
+<body>
+    <hr>
+    <h1>La importancia de reconocer tus sentimientos</h1>
+    <h2>Reconocer los sentimientos significa identificar y comprender lo que estás sintiendo, por ejemplo, alegría, tristeza, enojo, miedo, preocupación, frustración o tranquilidad. Es una habilidad importante para cuidar la salud emocional y relacionarnos mejor con otras personas.</h2>
+</hr>
+    <hr>
+    <h1>¿Por qué es importante reconocerlos?</h1>
+    <ul>
+        <li>Ayuda a conocerte mejor: identificar lo que sientes permite entender qué situaciones te afectan y cuáles te hacen sentir bien</li>
+        <li>Permite manejar las emociones: cuando reconoces una emoción, puedes buscar una manera adecuada de expresarla y manejarla en lugar de actuar impulsivamente.</li>
+        <li>Mejora las relaciones: expresar cómo te sientes facilita la comunicación con familiares, amigos, compañeros y otras personas.</li>
+        <li>Ayuda a tomar mejores decisiiones: comprender tus emociones puede ayudarte a pensar antes de actuar y considerar las consecuencias.</li>
+        <li>Reduce la acumulación de emociones: ignorar constantemente lo que sentimos puede generar tensión y malestar. Hablar sobre las emociones puede ayudar a procesarlas.</li>
+        <li>Favorece la autoestima: aceptar que todas las emociones forman parte de la experiencia humana ayuda a desarrollar una relación más saludable contigo mismo.</li>
+        <li>Permite pedir ayuda: reconocer que estás triste, preocupado o sobrepasado puede ser el primer paso para buscar apoyo.</li>
+    </ul>
+</hr>
+<hr>
+    <h1>¿Qué son los sentimientos?</h1>
+    <h2>Los sentimientos son las experiencias internas que aparecen como respuesta a lo que vivimos, pensamos o recordamos. Algunos ejemplos son alegría, tristeza, enojo, miedo, vergüenza, culpa, tranquilidad, frustración y amor.
+        Aunque a veces podemos confundir emociones y sentimientos, están relacionados. Una emoción suele ser una respuesta más inmediata del organismo, mientras que el sentimiento incluye cómo interpretamos y experimentamos esa emoción.</h2>
+    <hr>
+        <h1>En conclusión</h1>
+     <h2> reconocer tus sentimientos es importante porque te permite entenderte, comunicarte mejor, afrontar las dificultades y cuidar tu bienestar emocional. Las emociones no son buenas o malas por sí mismas; son señales que pueden ayudarnos a comprender lo que estamos viviendo.</h2>
+    </hr>
+
+    <img src="emociones2.jpg" alt="emociones2" width="500">
+
+
+
+
+
+<!--enlaces a las paginas secundarias-->
+<footer>
+    <p>aqui mas temas sobre la salud mental :D</p>
+    <p><a href="index.html">pagina principal :D</a></p>
+    <p><a href="cpaae.html">¿como actuar ante el acoso escolar?</a></p>
+    <p><a href="rdspbra.html">riesgo de suicidio por el bajo rendimiento academico</a></p>
+    <p><a href="riesgo de no estar sano.html">riesgo de no estar sano mentalmente</a></p>
+    <p><a href="ayuda.html">donde recibir ayuda en caso de algun problema mental</a></p>
+    </footer>
+    </body>
+</html>
